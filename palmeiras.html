@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Escudo do Palmeiras" />
+    <meta name="author" content="Larissa Moro S. Santos" />
+    <meta name="keywords" content="palmeiras, html, css, escudo, futebol" />
+    <meta name="copyright" content="© 2022 Larissa Santos" />
+    <meta name="theme-color" content="#01a351" />
+    <meta property="og:title" content="Escudo do Palmeiras" />
+    <meta property="og:description" content="Escudo do Palmeiras" />
+    <title>Escudo do Palmeiras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Oswald", sans-serif;
+      }
+
+      body {
+        margin: 0;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .palmeiras {
+        width: 300px;
+        height: 300px;
+        border: 15px solid #fff;
+        border-radius: 50%;
+        position: relative;
+        background-color: #01a351;
+        border: 5px double #fff;
+      }
+
+      .ball {
+        border-radius: 50%;
+        position: absolute;
+        background-color: #fff;
+      }
+
+      .logo {
+        width: 161px;
+        height: 161px;
+        left: 63px;
+        top: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 7em;
+        font-weight: bold;
+        background-color: #fff;
+        border: 5px double #01a351;
+        color: #01a351;
+        line-height: 1;
+      }
+
+      .logo-flag {
+        width: 142px;
+        height: 132px;
+        top: 14px;
+        left: 6px;
+        -webkit-text-fill-color: white;
+        -webkit-text-stroke: 1px #01a351;
+        border-radius: 48% 52% 50% 50% / 0% 0% 100% 100%;
+        position: absolute;
+        color: white;
+        clip-path: polygon(
+          53% 0,
+          78% 7%,
+          96% 27%,
+          90% 57%,
+          76% 84%,
+          50% 100%,
+          26% 81%,
+          15% 57%,
+          8% 29%,
+          24% 8%
+        );
+        background-image: linear-gradient(
+          0deg,
+          #ffffff 2.38%,
+          #01a351 2.38%,
+          #01a351 50%,
+          #ffffff 50%,
+          #ffffff 52.38%,
+          #01a351 52.38%,
+          #01a351 100%
+        );
+        background-size: 42px 42px;
+      }
+
+      .left-1 {
+        top: 45px;
+        left: 60px;
+        width: 10px;
+        height: 10px;
+      }
+      .left-2 {
+        top: 60px;
+        left: 45px;
+        width: 15px;
+        height: 15px;
+      }
+      .left-3 {
+        top: 80px;
+        left: 30px;
+        width: 20px;
+        height: 20px;
+      }
+      .left-4 {
+        top: 110px;
+        left: 20px;
+        width: 30px;
+        height: 30px;
+      }
+
+      .right-1 {
+        top: 45px;
+        left: 230px;
+        width: 10px;
+        height: 10px;
+      }
+      .right-2 {
+        top: 60px;
+        left: 240px;
+        width: 15px;
+        height: 15px;
+      }
+      .right-3 {
+        top: 80px;
+        left: 250px;
+        width: 20px;
+        height: 20px;
+      }
+      .right-4 {
+        top: 110px;
+        left: 256px;
+        width: 30px;
+        height: 30px;
+      }
+
+      .warp__placeholder {
+        position: absolute;
+        color: transparent;
+        font-size: 0.1px;
+      }
+
+      .warp {
+        display: block;
+        position: absolute;
+        width: 620px;
+        height: 450px;
+        font: normal 68px/1 "Oswald";
+        right: -60px;
+        top: 57px;
+        color: white;
+        font-weight: bold;
+      }
+
+      [class*="warp__"] {
+        display: block;
+        position: absolute;
+      }
+
+      .warp__0 {
+        transform-origin: 50% 44px;
+        transform: translate(268.9555px, 82.4399px) rotate(1.134934rad);
+      }
+
+      .warp__1 {
+        transform-origin: 50% 44px;
+        transform: translate(291.9715px, 116.55779999999999px)
+          rotate(0.842465rad);
+      }
+
+      .warp__2 {
+        transform-origin: 50% 44px;
+        transform: translate(322.5907px, 141.6369px) rotate(0.581214rad);
+      }
+
+      .warp__3 {
+        transform-origin: 50% 44px;
+        transform: translate(355.789px, 161.265px) rotate(0.251639rad);
+      }
+
+      .warp__4 {
+        transform-origin: 50% 44px;
+        transform: translate(414.474px, 164.7714px) rotate(-0.115115rad);
+      }
+
+      .warp__5 {
+        transform-origin: 50% 44px;
+        transform: translate(450.4689px, 157.3535px) rotate(-0.3817rad);
+      }
+
+      .warp__6 {
+        transform-origin: 50% 44px;
+        transform: translate(469.865px, 139.7531px) rotate(-0.696671rad);
+      }
+
+      .warp__7 {
+        transform-origin: 50% 44px;
+        transform: translate(499.0703px, 106.94909999999999px)
+          rotate(-1.046976rad);
+      }
+
+      .warp__8 {
+        transform-origin: 50% 44px;
+        transform: translate(515.6343px, 71.0042px) rotate(-1.288198rad);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="palmeiras">
+      <!-- Letra do brasão -->
+      <div class="logo ball">
+        <div class="logo-flag">P</div>
+      </div>
+      <!-- Estrelas a esquerda -->
+      <div class="left-1 ball"></div>
+      <div class="left-2 ball"></div>
+      <div class="left-3 ball"></div>
+      <div class="left-4 ball"></div>
+      <!-- Estrelas a direita -->
+      <div class="right-1 ball"></div>
+      <div class="right-2 ball"></div>
+      <div class="right-3 ball"></div>
+      <div class="right-4 ball"></div>
+      <!-- Escrita do nome -->
+      <div class="warp" aria-labelledby="warp-label">
+        <span id="warp-label" class="warp__placeholder"> Palmeiras </span>
+        <span aria-role="presentation">
+          <span class="warp__0"> P </span>
+          <span class="warp__1"> A </span>
+          <span class="warp__2"> L </span>
+          <span class="warp__3"> M </span>
+          <span class="warp__4"> E </span>
+          <span class="warp__5"> I </span>
+          <span class="warp__6"> R </span>
+          <span class="warp__7"> A </span>
+          <span class="warp__8"> S </span>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>

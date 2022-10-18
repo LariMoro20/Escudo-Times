@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Escudo do Internacional" />
+    <meta name="author" content="Larissa Moro S. Santos" />
+    <meta name="keywords" content="internacional, html, css, escudo, futebol" />
+    <meta name="copyright" content="© 2022 Larissa Santos" />
+    <meta name="theme-color" content="#cc262d" />
+    <meta property="og:title" content="Escudo do Internacional" />
+    <meta property="og:description" content="Escudo do Internacional" />
+    <title>Escudo do Internacional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Oswald", sans-serif;
+      }
+
+      body {
+        margin: 0;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .internacional {
+        width: 310px;
+        height: 320px;
+        border-radius: 50%;
+        display: flex;
+        background-color: #fff;
+        border: 5px solid #cc262d;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .ball {
+        border-radius: 50%;
+        position: absolute;
+        background-color: #cc262d;
+      }
+
+      .logo {
+        width: 250px;
+        height: 250px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        font-size: 7em;
+        font-weight: bold;
+        background-color: #cc262d;
+        border: 8px double #fff;
+        line-height: 1;
+        background-image: url("brasao-inter.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+
+      @font-face {
+        font-family: ultra;
+        src: url(path/to/font/file/ultra) format("woff2");
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+      }
+
+      /*Estilo nome*/
+      .warp__placeholder {
+        position: absolute;
+        color: transparent;
+        font-size: 0.1px;
+      }
+
+      .warp {
+        display: block;
+        position: relative;
+        width: 620px;
+        height: 450px;
+        font: normal 20px/1 ultra;
+        right: 127px;
+        top: 54px;
+        color: #cc262d;
+        font-weight: bolder;
+      }
+
+      [class*="warp__"] {
+        display: block;
+        position: absolute;
+      }
+
+      .warp__0 {
+        transform-origin: 50% 19px;
+        transform: translate(157.47px, 88.7168px) rotate(-1.093662rad);
+      }
+
+      .warp__1 {
+        transform-origin: 50% 19px;
+        transform: translate(167.8605px, 78.3141px) rotate(-1.016608rad);
+      }
+
+      .warp__2 {
+        transform-origin: 50% 19px;
+        transform: translate(170.1655px, 68.9478px) rotate(-0.939339rad);
+      }
+
+      .warp__3 {
+        transform-origin: 50% 19px;
+        transform: translate(179.3972px, 56.5279px) rotate(-0.823032rad);
+      }
+
+      .warp__4 {
+        transform-origin: 50% 19px;
+        transform: translate(193.2331px, 47.843500000000006px)
+          rotate(-0.730107rad);
+      }
+
+      .warp__5 {
+        transform-origin: 50% 19px;
+        transform: translate(197.8456px, 40.7682px) rotate(-0.645225rad);
+      }
+
+      .warp__6 {
+        transform-origin: 50% 19px;
+        transform: translate(210.6722px, 33.4366px) rotate(-0.545285rad);
+      }
+
+      .warp__7 {
+        transform-origin: 50% 19px;
+        transform: translate(220.1806px, 26.055799999999998px)
+          rotate(-0.424609rad);
+      }
+
+      .warp__8 {
+        transform-origin: 50% 19px;
+        transform: translate(239.1163px, 19.4867px) rotate(-0.276081rad);
+      }
+
+      .warp__9 {
+        transform-origin: 50% 19px;
+        transform: translate(256.7911px, 16.1306px) rotate(-0.098696rad);
+      }
+
+      .warp__10 {
+        transform-origin: 50% 19px;
+        transform: translate(273.0009px, 15.345199999999998px)
+          rotate(0.005467rad);
+      }
+
+      .warp__11 {
+        transform-origin: 50% 19px;
+        transform: translate(292.2463px, 16.6415px) rotate(0.12696rad);
+      }
+
+      .warp__12 {
+        transform-origin: 50% 19px;
+        transform: translate(312.1123px, 20.2748px) rotate(0.255758rad);
+      }
+
+      .warp__13 {
+        transform-origin: 50% 19px;
+        transform: translate(329.6172px, 25.931399999999996px)
+          rotate(0.388577rad);
+      }
+
+      .warp__14 {
+        transform-origin: 50% 19px;
+        transform: translate(345.7053px, 32.1886px) rotate(0.504423rad);
+      }
+
+      .warp__15 {
+        transform-origin: 50% 19px;
+        transform: translate(354.5898px, 40.7752px) rotate(0.636989rad);
+      }
+
+      .warp__16 {
+        transform-origin: 50% 19px;
+        transform: translate(370.0204px, 54.404300000000006px)
+          rotate(0.809181rad);
+      }
+
+      .warp__17 {
+        transform-origin: 50% 19px;
+        transform: translate(383.1802px, 69.296px) rotate(0.96068rad);
+      }
+
+      .warp__18 {
+        transform-origin: 50% 19px;
+        transform: translate(393.2663px, 84.2166px) rotate(1.084449rad);
+      }
+
+      /*Estilo ano*/
+
+      .warp2__placeholder {
+        position: absolute;
+        color: transparent;
+        font-size: 0.1px;
+      }
+
+      .warp2 {
+        display: block;
+        position: relative;
+        width: 620px;
+        height: 450px;
+        font: normal 20px/1 ultra;
+        top: 18px;
+        right: 263px;
+        color: #cc262d;
+        font-weight: bolder;
+      }
+
+      [class*="warp2__"] {
+        display: block;
+        position: absolute;
+      }
+
+      .warp2__0 {
+        transform-origin: 50% 17px;
+        transform: translate(238.671px, 339.4111px) rotate(0.137377rad);
+      }
+
+      .warp2__1 {
+        transform-origin: 50% 17px;
+        transform: translate(248.62740000000002px, 340.7325px)
+          rotate(0.071086rad);
+      }
+
+      .warp2__2 {
+        transform-origin: 50% 17px;
+        transform: translate(263.9539px, 340.7221px) rotate(-0.075813rad);
+      }
+
+      .warp2__3 {
+        transform-origin: 50% 17px;
+        transform: translate(278.8995px, 339.0479px) rotate(-0.147007rad);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="internacional">
+      <!-- Letra do brasão -->
+      <div class="logo ball">
+        <div class="logo-flag"></div>
+      </div>
+      <div class="warp" aria-labelledby="warp-label">
+        <span id="warp-label" class="warp__placeholder">
+          S. C. INTERNACIONAL
+        </span>
+
+        <span aria-role="presentation">
+          <span class="warp__0"> S </span>
+          <span class="warp__1"> . </span>
+          <span class="warp__2"> </span>
+          <span class="warp__3"> C </span>
+          <span class="warp__4"> . </span>
+          <span class="warp__5"> </span>
+          <span class="warp__6"> I </span>
+          <span class="warp__7"> N </span>
+          <span class="warp__8"> T </span>
+          <span class="warp__9"> E </span>
+          <span class="warp__10"> R </span>
+          <span class="warp__11"> N </span>
+          <span class="warp__12"> A </span>
+          <span class="warp__13"> C </span>
+          <span class="warp__14"> I </span>
+          <span class="warp__15"> O </span>
+          <span class="warp__16"> N </span>
+          <span class="warp__17"> A </span>
+          <span class="warp__18"> L </span>
+        </span>
+      </div>
+      <div class="warp2" aria-labelledby="warp2-label">
+        <span id="warp2-label" class="warp2__placeholder">1909 </span
+        ><span aria-role="presentation"
+          ><span class="warp2__0">1 </span><span class="warp2__1">9 </span
+          ><span class="warp2__2">0 </span
+          ><span class="warp2__3">9 </span></span
+        >
+      </div>
+      <!-- Estrelas a esquerda -->
+    </div>
+  </body>
+</html>
