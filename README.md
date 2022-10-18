@@ -2,9 +2,11 @@
 Escudos feitos puramente com HTML e CSS
 
 ## :heart: Escudo Internacional
+Visualizar: https://escudo-times.vercel.app/internacional.html
 ![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-internacional.png)
 
 ## :green_heart: Escudo Palmeiras
+Visualizar: https://escudo-times.vercel.app/palmeiras.html
 ![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-palmeiras.png)
 
 
