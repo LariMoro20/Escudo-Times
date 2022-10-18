@@ -2,10 +2,10 @@
 Escudos feitos puramente com HTML e CSS
 
 Escudo Palmeiras
-![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/escudo-palmeiras.png)
+![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-palmeiras.png)
 
 Escudo Internacional
-![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/escudo-internacional.png)
+![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-internacional.png)
 
 
 ## :star: Creditos:
