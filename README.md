@@ -10,7 +10,7 @@ Visualizar: https://escudo-times.vercel.app/palmeiras.html
 ![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-palmeiras.png)
 
 
-## :star: Creditos:
+## :hammer: Ferramentas auxiliares:
 
 - [Gerador de Clip Path](https://www.cssportal.com/css-clip-path-generator/)
 - [Gerador de listras](https://stripesgenerator.com/)
