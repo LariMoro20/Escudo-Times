@@ -1,10 +1,10 @@
 # Escudos de times
 Escudos feitos puramente com HTML e CSS
 
-Escudo Palmeiras
+## Escudo Palmeiras
 ![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-palmeiras.png)
 
-Escudo Internacional
+## Escudo Internacional
 ![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-internacional.png)
 
 
