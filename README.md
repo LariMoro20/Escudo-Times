@@ -3,16 +3,16 @@ Escudos feitos puramente com HTML e CSS
 
 ## :heart: Escudo Internacional
 ![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-internacional.png)
-Visualizar: https://escudo-times.vercel.app/internacional.html
+Visualizar: https://escudo-times.vercel.app/escudo-internacional.html
 
 ## :green_heart: Escudo Palmeiras
 ![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-palmeiras.png)
-Visualizar: https://escudo-times.vercel.app/palmeiras.html
+Visualizar: https://escudo-times.vercel.app/escudo-palmeiras.html
 
 ## :blue_heart: Escudo Avaí
 
 ![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-avai.png)
-Visualizar: https://escudo-times.vercel.app/avai.html
+Visualizar: https://escudo-times.vercel.app/escudo-avai.html
 
 
 ## :hammer: Ferramentas auxiliares:
