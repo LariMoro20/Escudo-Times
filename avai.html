@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Escudo do Avaí" />
+    <meta name="author" content="Larissa Moro S. Santos" />
+    <meta name="keywords" content="avaí, html, css, escudo, futebol" />
+    <meta name="copyright" content="© 2022 Larissa Santos" />
+    <meta name="theme-color" content="#01a351" />
+    <meta property="og:title" content="Escudo do Avaí" />
+    <meta property="og:description" content="Escudo do Avaí" />
+    <title>Escudo do Avaí</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Oswald", sans-serif;
+      }
+
+      body {
+        margin: 0;
+        border: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      .avai {
+        height: 220px;
+        width: 229px;
+        background-image: linear-gradient(to left, #056dad 52%, #fff 52%);
+        border-top: 2px solid #056dad;
+        border-left: 2px solid #056dad;
+        border-right: 2px solid #056dad;
+        background-size: 42px 42px;
+        border-radius: 0px 0px 100px 100px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+      }
+      .avai::after {
+        content: "";
+        position: absolute;
+        background-color: white;
+        width: 100%;
+        height: 46px;
+        border-bottom: 4px solid #056dad;
+      }
+      .avai::before {
+        content: "";
+        position: absolute;
+        border-top: 35px solid #056dad;
+        border-left: 75px solid transparent;
+        border-right: 75px solid transparent;
+        left: 40px;
+        bottom: -17px;
+        /* border-image: linear-gradient(
+          90deg,
+          #ffffff 20%,
+          #056dad 20%,
+          #056dad 50%,
+          #ffffff 50%,
+          #ffffff 70%,
+          #056dad 70%,
+          #056dad 100%
+        );
+        background-size: 30px 30px;*/
+      }
+      .title {
+        position: absolute;
+        z-index: 10;
+        font-size: 2em;
+        font-weight: bold;
+        color: #056dad;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="avai">
+      <div class="title">AVAÍ F. C.</div>
+    </div>
+  </body>
+</html>

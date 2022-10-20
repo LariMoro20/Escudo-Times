@@ -9,6 +9,11 @@ Visualizar: https://escudo-times.vercel.app/internacional.html
 Visualizar: https://escudo-times.vercel.app/palmeiras.html
 ![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-palmeiras.png)
 
+## :green_heart: Escudo Avaí
+
+Visualizar: https://escudo-times.vercel.app/avai.html
+![imagem](https://github.com/LariMoro20/Escudo-Times/blob/main/screenshots/escudo-avai.png)
+
 
 ## :hammer: Ferramentas auxiliares:
 
